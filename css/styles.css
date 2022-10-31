@@ -132,7 +132,7 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-image: linear-gradient (#2F303A, #C4C4C4, 40%);
+    background-image: linear-gradient (rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -244,7 +244,13 @@ section {
 
 /* styses Our-team */
 
-.our-team {background: #F5F4FA;}
+.our-team {
+    background: #F5F4FA;
+    max-width: 1600px;
+    /* height: 708px; */
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .div-our-team {
    
@@ -295,12 +301,37 @@ section {
     text-align: center;
     }
 
+ /* Regular customers Постійні клієнти */
+
+.regular-customers {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+.regular-customers-h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+
+
+
 /* styles footer */
 
 .footer {
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
