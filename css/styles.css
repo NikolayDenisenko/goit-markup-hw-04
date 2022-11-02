@@ -102,7 +102,7 @@ section {
 
 .header-list >li:not(:last-child) {margin-right: 50px;}
 
-        .header-text-web {color: #2196F3;}
+.header-text-web {color: #2196F3;}
 .header-text-studio {color: #000000;}
 
 .header-item:hover, .header-item:focus, .header-item:active {color: #2196F3;}
@@ -116,6 +116,7 @@ section {
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
+    
     }
 
 .header-list-adress >li:not(:last-child) {margin-right: 50px;}
@@ -123,6 +124,27 @@ section {
 .header-list-adress:hover, .header-list-adress:focus, .header-list-adress:active {color: #2196F3;}
 
 .active-link {color: #2196F3;}
+
+.icon-mail {
+    display: flex;
+    margin-right: 10px;
+    fill: currentColor;
+    align-items: center;
+    justify-content: center;
+    
+}
+.icon-mail:hover,.icon-mail:focus,.icon-mail:active {color: #2196F3;}
+
+.icon-tel {
+    display: flex;
+    margin-right: 10px;
+    fill: currentColor;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon-tel:hover,.icon-tel:focus,.icon-tel:active {color: #2196F3;}
 
 /* main styles */
 
@@ -220,6 +242,25 @@ section {
     line-height: 24px;
    
     color: var(--color-body-second);}
+
+.div-features-icon {
+      
+    margin-bottom: 30px;
+        width: 270px;
+        height: 120px;
+        
+        background: #F5F4FA;
+        border-radius: 4px;
+        padding-top: auto;
+}
+
+.icon-antenna {
+    display: flex;
+    fill: currentColor;
+    /* align-items: center;
+    justify-content:center; */
+    
+}
 
 /* styles we-do */
 
