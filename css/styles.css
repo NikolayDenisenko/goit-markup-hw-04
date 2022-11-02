@@ -219,7 +219,11 @@ section {
 
 .features-list {
     display: flex;
+    /* width: 1170px;
+    height: 248px; */
     gap: 30px;
+    align-items: center;
+    justify-content:center;
 }
 
 .features-list-item {
@@ -244,23 +248,36 @@ section {
     color: var(--color-body-second);}
 
 .div-features-icon {
-      
+    display: flex;  
     margin-bottom: 30px;
-        width: 270px;
-        height: 120px;
+    width: 270px;
+    height: 120px;
         
-        background: #F5F4FA;
-        border-radius: 4px;
-        padding-top: auto;
+    background: #F5F4FA;
+    border-radius: 4px;
+    
 }
 
 .icon-antenna {
     display: flex;
-    fill: currentColor;
-    /* align-items: center;
-    justify-content:center; */
     
-}
+    fill: currentColor;
+   }
+
+.icon-clock{
+        display: flex;
+
+        fill: currentColor;
+    }
+
+.icon-diagram{
+        display: flex;
+
+        fill: currentColor;
+    }
+
+
+
 
 /* styles we-do */
 
@@ -345,18 +362,40 @@ section {
     text-align: center;
     }
 
+.icon-instagram {
+    color: #FFFFFF
+    
+    fill: ;
+}
+
  /* Regular customers Постійні клієнти */
+
+
 
 .regular-customers {
     max-width: 1170px;
     margin-right: auto;
     margin-left: auto;
+}
 
+.regular-customers-list {
+    display: flex;
+    gap: 30px;
 
 }
 
+.regular-customers-icon {
+    width: 170px;
+    height: 92px;
+    
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
 .regular-customers-h2 {
-        font-weight: 700;
+    padding-bottom: 50px;    
+    
+    font-weight: 700;
         font-size: 36px;
         line-height: 42px;
         text-align: center;
