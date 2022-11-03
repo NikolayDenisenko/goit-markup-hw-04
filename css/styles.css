@@ -362,11 +362,25 @@ section {
     text-align: center;
     }
 
-.icon-instagram {
-    color: #FFFFFF
-    
-    fill: ;
+.div-our-team-icon {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 16px;
 }
+
+.our-team-icon {
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    color: #AFB1B8
+}
+
+.icon-instagram, .icon-twitter, .icon-facebook, .icon-linkedin{
+    fill: currentColor;
+    }
+
+.icon-instagram:hover, .icon-instagram:focus, .icon-instagram:active {background: #2196F3;}
 
  /* Regular customers Постійні клієнти */
 
@@ -385,11 +399,47 @@ section {
 }
 
 .regular-customers-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 170px;
     height: 92px;
     
+    color: #AFB1B8;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+}
+
+.icon-logo, .icon-logo-1, .icon-logo-2, .icon-logo-3, .icon-logo-4, .icon-logo-5 {
+    fill: currentColor;
+}
+
+.icon-logo:hover,.icon-logo:focus,.icon-logo:active {color: #2196F3;}
+.icon-logo-1:hover,
+.icon-logo-1:focus,
+.icon-logo-1:active {
+    color: #2196F3;
+}
+.icon-logo-2:hover,
+.icon-logo-2:focus,
+.icon-logo-2:active {
+    color: #2196F3;
+}
+.icon-logo-3:hover,
+.icon-logo-3:focus,
+.icon-logo-3:active {
+    color: #2196F3;
+}
+.icon-logo-4:hover,
+.icon-logo-4:focus,
+.icon-logo-4:active {
+    color: #2196F3;
+}
+
+.icon-logo-5:hover,
+.icon-logo-5:focus,
+.icon-logo-5:active {
+    color: #2196F3;
 }
 
 .regular-customers-h2 {
@@ -417,7 +467,26 @@ section {
     margin-left: auto;
 }
 
+.div-footer{
+    display: flex;
+    gap: 70px;
+}
 
+.footer-right {
+    
+}
+
+.footer-h3 {
+     margin-bottom: 20px;
+    
+    font-weight: 700;
+        font-size: 14px;
+        line-height: calc(16/14);
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+}
 
 .footer-text-web {
     color: #2196F3;}
