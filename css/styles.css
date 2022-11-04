@@ -153,7 +153,7 @@ section {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Bg-hero.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     padding-top: 200px;
     padding-bottom: 200px;
     margin-left: auto;
@@ -219,10 +219,7 @@ section {
 
 .features-list {
     display: flex;
-    /* width: 1170px;
-    height: 248px; */
     gap: 30px;
-    align-items: center;
     justify-content:center;
 }
 
@@ -252,7 +249,9 @@ section {
     margin-bottom: 30px;
     width: 270px;
     height: 120px;
-        
+    align-items: center;
+    justify-content: center;
+    
     background: #F5F4FA;
     border-radius: 4px;
     
@@ -370,19 +369,23 @@ section {
 }
 
 .our-team-icon {
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center; */
-    color: #AFB1B8
+    width: 44px;
+    height: 44px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #AFB1B8;
+    border-radius: 50%; 
 }
 
 .icon-instagram, .icon-twitter, .icon-facebook, .icon-linkedin{
     fill: currentColor;
     }
 
-.icon-instagram:hover, .icon-instagram:focus, .icon-instagram:active {background: #2196F3;}
+.our-team-icon:hover, .our-team-icon:focus, .our-team-icon:active {background: #2196F3}
 
- /* Regular customers Постійні клієнти */
+/* Regular customers Постійні клієнти */
 
 
 
@@ -415,32 +418,14 @@ section {
 }
 
 .icon-logo:hover,.icon-logo:focus,.icon-logo:active {color: #2196F3;}
-.icon-logo-1:hover,
-.icon-logo-1:focus,
-.icon-logo-1:active {
-    color: #2196F3;
-}
-.icon-logo-2:hover,
-.icon-logo-2:focus,
-.icon-logo-2:active {
-    color: #2196F3;
-}
-.icon-logo-3:hover,
-.icon-logo-3:focus,
-.icon-logo-3:active {
-    color: #2196F3;
-}
-.icon-logo-4:hover,
-.icon-logo-4:focus,
-.icon-logo-4:active {
-    color: #2196F3;
-}
+.icon-logo-1:hover,.icon-logo-1:focus,.icon-logo-1:active {color: #2196F3;}
+.icon-logo-2:hover,.icon-logo-2:focus,.icon-logo-2:active {color: #2196F3;}
+.icon-logo-3:hover,.icon-logo-3:focus,.icon-logo-3:active {color: #2196F3;}
+.icon-logo-4:hover,.icon-logo-4:focus,.icon-logo-4:active {color: #2196F3;}
+.icon-logo-5:hover,.icon-logo-5:focus,.icon-logo-5:active {color: #2196F3;}
 
-.icon-logo-5:hover,
-.icon-logo-5:focus,
-.icon-logo-5:active {
-    color: #2196F3;
-}
+.regular-customers-icon:hover,.regular-customers-icon:focus,.regular-customers-icon:active {border-color: #2196F3;}
+
 
 .regular-customers-h2 {
     padding-bottom: 50px;    
@@ -470,13 +455,10 @@ section {
 .div-footer{
     display: flex;
     gap: 70px;
+    align-items: baseline;
 }
 
-.footer-right {
-    
-}
-
-.footer-h3 {
+.footer-p {
      margin-bottom: 20px;
     
     font-weight: 700;
@@ -526,6 +508,27 @@ section {
 .footer-item:hover, .footer-item:focus, .footer-item:active {color: #2196F3;}
 .footer-adres-item:hover, .footer-adres-item:focus, .footer-adres-item:active {color: #2196F3;}
     
+.div-footer-icon {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+
+.footer-icon {
+    width: 44px;
+    height: 44px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.footer-icon:hover,.footer-icon:focus,.footer-icon:active {background: #2196F3;}
 
 /* STYSES FOR PORTFOLIO.HTML*/
 
