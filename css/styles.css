@@ -361,10 +361,10 @@ section {
     text-align: center;
     }
 
-.div-our-team-icon {
+.our-team-icon-list {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     margin-top: 16px;
 }
 
@@ -384,6 +384,7 @@ section {
     }
 
 .our-team-icon:hover, .our-team-icon:focus, .our-team-icon:active {background: #2196F3}
+.our-team-icon:hover,.our-team-icon:focus,.our-team-icon:active {color: #FFFFFF;}
 
 /* Regular customers Постійні клієнти */
 
