@@ -149,7 +149,7 @@ section {
 /* main styles */
 
 .cap {
-    /* background: #2F303A; */
+    background: #C4C4C4;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Bg-hero.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -205,6 +205,7 @@ section {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border-color: #2196F4;
     cursor: pointer;
     }
 
@@ -389,13 +390,6 @@ section {
 /* Regular customers Постійні клієнти */
 
 
-
-.regular-customers {
-    max-width: 1170px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .regular-customers-list {
     display: flex;
     gap: 30px;
@@ -418,18 +412,11 @@ section {
     fill: currentColor;
 }
 
-.icon-logo:hover,.icon-logo:focus,.icon-logo:active {color: #2196F3;}
-.icon-logo-1:hover,.icon-logo-1:focus,.icon-logo-1:active {color: #2196F3;}
-.icon-logo-2:hover,.icon-logo-2:focus,.icon-logo-2:active {color: #2196F3;}
-.icon-logo-3:hover,.icon-logo-3:focus,.icon-logo-3:active {color: #2196F3;}
-.icon-logo-4:hover,.icon-logo-4:focus,.icon-logo-4:active {color: #2196F3;}
-.icon-logo-5:hover,.icon-logo-5:focus,.icon-logo-5:active {color: #2196F3;}
-
-.regular-customers-icon:hover,.regular-customers-icon:focus,.regular-customers-icon:active {border-color: #2196F3;}
+.regular-customers-icon:hover,.regular-customers-icon:focus,.regular-customers-icon:active {border-color: #2196F3; color: #2196F3;}
 
 
 .regular-customers-h2 {
-    padding-bottom: 50px;    
+    margin-bottom: 50px;    
     
     font-weight: 700;
         font-size: 36px;
